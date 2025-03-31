@@ -1,5 +1,5 @@
 // @ts-check
-import {  devices } from '@playwright/test';
+import { devices } from '@playwright/test';
 
 
 const config = ({
@@ -11,7 +11,8 @@ const config = ({
   reporter: 'html',
 
   use: {
-    browserName: 'chromium'
+    browserName: 'chromium',
+    headless: false
 
   },
 
